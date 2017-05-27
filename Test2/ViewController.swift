@@ -21,7 +21,13 @@ class ViewController: UIViewController {
     
     @IBAction func click1(_ sender: Any) {
     
-        answer.text = "answer is... \(Double(box1.text!)! + Double(box2.text!)!)"
+        let addition = true
+        
+        if addition {
+            answer.text = "answer is... \(Double(box1.text!)! + Double(box2.text!)!)"
+        } else {
+            answer.text = "answer is... \(Double(box1.text!)! - Double(box2.text!)!)"
+        }
     
     }
     
