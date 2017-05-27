@@ -21,11 +21,7 @@ class ViewController: UIViewController {
     
     @IBAction func click1(_ sender: Any) {
     
-        print(box1)
-        print(box1.text!)
-        print(box2.text!)
-    
-    
+        answer.text = "answer is... \(Double(box1.text!)! + Double(box2.text!)!)"
     
     }
     
