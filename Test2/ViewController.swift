@@ -10,6 +10,31 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var box1: UITextField!
+    
+    
+    
+    @IBOutlet weak var box2: UITextField!
+    
+    
+    
+    @IBAction func click1(_ sender: Any) {
+    
+        print(box1)
+        print(box1.text!)
+        print(box2.text!)
+    
+    
+    
+    }
+    
+    
+    @IBOutlet weak var answer: UILabel!
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
